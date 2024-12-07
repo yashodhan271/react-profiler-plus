@@ -1,7 +1,7 @@
 {
   "name": "react-profiler-plus",
-  "version": "0.1.0",
-  "description": "\ud83d\ude80 A comprehensive React performance profiling and optimization tool with beautiful visualizations",
+  "version": "0.2.0-beta.1",
+  "description": "🚀 A comprehensive React performance profiling and optimization tool with beautiful visualizations (Beta)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yashodhan/react-profiler-plus.git"
+    "url": "git+https://github.com/yashodhan271/react-profiler-plus.git"
   },
   "keywords": [
     "react",
@@ -29,38 +29,51 @@
     "devtools",
     "monitoring",
     "visualization",
-    "metrics",
-    "react-profiler",
-    "performance-optimization"
+    "beta"
   ],
   "author": {
-    "name": "Yashodhan",
+    "name": "Yashodhan Advankar",
     "email": "your.email@example.com",
-    "url": "https://github.com/yashodhan"
+    "url": "https://github.com/yashodhan271"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yashodhan/react-profiler-plus/issues"
+    "url": "https://github.com/yashodhan271/react-profiler-plus/issues"
   },
-  "homepage": "https://github.com/yashodhan/react-profiler-plus#readme",
+  "homepage": "https://github.com/yashodhan271/react-profiler-plus#readme",
   "peerDependencies": {
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "eslint": "^8.38.0",
-    "typescript": "^5.0.4",
     "jest": "^29.5.0",
-    "@testing-library/react": "^14.0.0",
     "parcel": "^2.9.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "d3": "^7.8.5"
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.10",
+    "@mui/material": "^6.1.10",
+    "@nivo/bar": "^0.88.0",
+    "@nivo/line": "^0.88.0",
+    "@nivo/pie": "^0.88.0",
+    "d3": "^7.8.5",
+    "recharts": "^2.14.1"
+  },
+  "config": {
+    "features": {
+      "dynamicProfiler": {
+        "enabled": true,
+        "beta": true
+      }
+    }
   }
 }

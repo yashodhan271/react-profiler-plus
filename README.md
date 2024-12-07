@@ -185,6 +185,29 @@ MIT
 
 ---
 
+## 🚀 Beta Features
+
+### Dynamic Page Profiler
+- Real-time performance monitoring
+- Component-level metrics
+- Memory usage tracking
+- Render time analysis
+- Beautiful visualizations
+- Export functionality
+
+### Known Limitations
+- Currently supports only client-side rendered pages
+- Limited to 24-hour data retention
+- Some visualizations might be incomplete
+
+### Feedback
+We'd love to hear your feedback on the beta features! Please:
+- Report bugs through GitHub issues
+- Suggest improvements
+- Share your use cases
+
+---
+
 <div align="center">
   <p>
     <sub>Built with ❤️ by developers, for developers</sub>
