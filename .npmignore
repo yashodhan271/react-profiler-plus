@@ -1,0 +1,28 @@
+# Source
+src/
+tests/
+
+# Development
+.parcel-cache/
+node_modules/
+coverage/
+.vscode/
+.idea/
+
+# Configuration files
+.eslintrc
+.prettierrc
+tsconfig.json
+jest.config.js
+
+# Example files
+example/
+demo/
+
+# Git files
+.git/
+.gitignore
+
+# Misc
+*.log
+.DS_Store
